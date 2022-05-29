@@ -1,2 +1,10 @@
-package PACKAGE_NAME;public class Artista {
+public class Artista {
+    String nome;
+    float cache;
+
+    public Artista(String nome, float cache){
+        this.nome=nome;
+        this.cache=cache;
+
+    }
 }

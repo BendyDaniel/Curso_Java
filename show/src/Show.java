@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public class Show {
+public class Show {
+   Artista artista;
+    public Show(){}
+
+    public Show(Artista artista){
+        this.artista=artista;
+
+    }
 }
